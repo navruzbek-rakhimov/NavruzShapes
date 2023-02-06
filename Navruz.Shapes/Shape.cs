@@ -16,7 +16,5 @@ namespace Navruz.Shapes
         }
 
         public double GetArea() => area;
-
-        // protected abstract double CalculateArea();
     }
 }

@@ -10,6 +10,11 @@ namespace Navruz.Shapes
     {
         public Circle(double radius) : base(CalculateArea(radius)) { }
 
+        /// <summary>
+        /// Calculates area of the circle
+        /// </summary>
+        /// <param name="radius">Radius of the circle</param>
+        /// <returns>Calculated area of the the circle</returns>
         public static double CalculateArea(double radius)
         {
             if (radius <= 0)
